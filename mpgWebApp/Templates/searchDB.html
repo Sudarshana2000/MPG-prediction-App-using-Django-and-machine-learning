@@ -1,0 +1,61 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+    <h1>Find your car details</h1>
+    <br>
+    <form method="post" enctype="multipart/form-data" action="searchDatabase">
+{% csrf_token %}
+    <div class="col-md-4 col-sm-4"><label for="fname">Car ID:</label> </div> <input name="car_ID" type="text" value={{ID}}><br><br>
+
+    {% if carDetails %}
+    <h2>Your car details</h2>
+    <br>
+
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>mpg</td>
+            <td>{{carDetails.mpg}}</td>
+        </tr>
+        <tr>
+            <td>Cylinders</td>
+            <td>{{carDetails.cylinders}}</td>
+        </tr>
+        <tr>
+            <td>Displacement</td>
+            <td>{{carDetails.displacement}}</td>
+        </tr>
+        <tr>
+            <td>horsepower</td>
+            <td>{{carDetails.horsepower}}</td>
+        </tr>
+        <tr>
+            <td>weight</td>
+            <td>{{carDetails.weight}}</td>
+        </tr>
+        <tr>
+            <td>acceleration</td>
+            <td>{{carDetails.acceleration}}</td>
+        </tr>
+        <tr>
+            <td>model</td>
+            <td>{{carDetails.model_year}}</td>
+        </tr>
+        <tr>
+            <td>origin</td>
+            <td>{{carDetails.origin}}</td>
+        </tr>
+    </table>
+    {% elif ID %}
+    <h3>Invalid car ID! Enter your car details in the home page.</h3>
+    {% else %}
+    <input type="submit" value="Submit" ></div>
+    {% endif %}
+
+    </form>
+    <br>
+{% endblock %}
