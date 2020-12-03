@@ -11,4 +11,4 @@ This is a Django Web App created to allow users to check car-mileage instantly b
 
 ## Overview
 
-![1](images/homepage.jpg)
+![1](/images/homepage.jpg)
