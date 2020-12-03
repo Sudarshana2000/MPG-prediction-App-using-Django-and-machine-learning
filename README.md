@@ -13,29 +13,29 @@ This is a Django Web App created to allow users to check car-mileage instantly b
 
 ##### Homepage
 
-![1](images/homepage.jpg)
+![a1](images/IMG1.jpg)
 
 
 ##### After adding details, predict mpg-value
 
-![2](images/predict_mpg.jpg)
+![a2](images/IMG2.jpg)
 
 
 ##### View Database webpage
 
-![3](images/view_database.jpg)
+![a3](images/IMG3.jpg)
 
 
 ##### Search Database webpage
 
-![4](images/search_database.jpg)
+![a4](images/IMG4.jpg)
 
 
 ##### Search Database webpage after getting positive search result
 
-![5](images/search_positive.jpg)
+![a5](images/IMG5.jpg)
 
 
 ##### Search Database webpage after getting negative search result
 
-![6](images/search_negative.jpg)
+![a6](images/IMG6.jpg)
