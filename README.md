@@ -11,31 +11,41 @@ This is a Django Web App created to allow users to check car-mileage instantly b
 
 ## Overview
 
+<div style="float:left">
+
 ##### Homepage
 
-![a1](images/IMG1.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG1.jpg" />
+<br />
 
 
 ##### After adding details, predict mpg-value
 
-![a2](images/IMG2.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG2.jpg" />
+<br />
 
 
 ##### View Database webpage
 
-![a3](images/IMG3.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG3.jpg" />
+<br />
 
 
 ##### Search Database webpage
 
-![a4](images/IMG4.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG4.jpg" />
+<br />
 
 
 ##### Search Database webpage after getting positive search result
 
-![a5](images/IMG5.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG5.jpg" />
+<br />
 
 
 ##### Search Database webpage after getting negative search result
 
-![a6](images/IMG6.jpg)
+<img src="https://github.com/Sudarshana2000/MPG-prediction-App-using-Django-and-machine-learning/blob/master/images/IMG6.jpg" />
+<br />
+
+</div>
